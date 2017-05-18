@@ -1,0 +1,12 @@
+---
+eureka:
+  client: 
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
+       
+words: I,YOU,HE,SHE,IT
+
+server:
+  port: ${PORT:${SERVER_PORT:0}}
+  
+      
